@@ -1,4 +1,4 @@
-# Project Name
+# CHAMA - Table Banking
 
 A brief, one-sentence description of what your Python CLI application does.
 
