@@ -22,6 +22,12 @@ def test_contribute_method(member):
     assert member.savings_balance == 5000
 
 
+# test contribution of a negative amount
+def test_contribute_negative_raises_error(member):
+    with pytest.raises(ValueError):
+        member.contribute(-100)
+
+
 # test request_loan method
 def test_request_loan_method(member):
     member.request_loan(10000)

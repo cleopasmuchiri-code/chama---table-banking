@@ -18,8 +18,8 @@ def chama():
 @pytest.fixture
 def members():
     return [
-        Member(name="Wanjiru", password="pass1234"),
-        Member(name="John", password="pass5678"),
+        Member(name="Wanjiru", role="member", password="pass1234"),
+        Member(name="John", role="admin", password="pass5678"),
     ]
 
 
@@ -30,7 +30,7 @@ def test_chama_initialization(chama):
 
 
 def test_add_member_appends_to_list(chama):
-    member = Member(name="Wanjiru", password="pass1234")
+    member = Member(name="Wanjiru", role="member", password="pass1234")
     chama.add_member(member)
 
     assert member in chama.members
