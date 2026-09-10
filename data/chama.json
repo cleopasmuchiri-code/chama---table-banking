@@ -1,0 +1,44 @@
+{
+  "name": "women",
+  "target_amount": 1000000.0,
+  "deadline": "2026-12-12",
+  "frequency": "monthly",
+  "interest_rate": 0.05,
+  "members": [
+    {
+      "name": "admin",
+      "role": "admin",
+      "salt": "1aa650d1809a1895fc40a1df64b14226219e2d893fb0f887f4a6599b159d0ac8",
+      "password": "b9d8e846d9234b81dd4bf7f7de4f9a242cdf3838ac2105a9916558d17d825166",
+      "savings_balance": 15000.0,
+      "loan_balance": 0,
+      "loan": {
+        "amount": 20000.0,
+        "interest_rate": 0.05,
+        "balance": 0,
+        "active": false
+      },
+      "must_reset_password": false
+    },
+    {
+      "name": "member1",
+      "role": "member",
+      "salt": "fbe09679134d65ed3d3e6c52f1ac3bcf25b8eda4a6dbdf7d2403948d0c254b90",
+      "password": "2321e716e8b236e3867db60a12fdba8ced9581b331f9a72db9d413594011a212",
+      "savings_balance": 0,
+      "loan_balance": 0,
+      "loan": null,
+      "must_reset_password": false
+    },
+    {
+      "name": "member2",
+      "role": "member",
+      "salt": "5f186dc4815aea43bef818b35271f3d5fa63feaf2b9c8c93753380619d9076af",
+      "password": "e08632164ca81ba403e1946e9c5409363cd06199d945573475c730dc8a335754",
+      "savings_balance": 0,
+      "loan_balance": 0,
+      "loan": null,
+      "must_reset_password": true
+    }
+  ]
+}

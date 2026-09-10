@@ -1,4 +1,5 @@
 # auth logic
+import hashlib
 
 
 class Auth:
